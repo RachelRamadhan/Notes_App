@@ -34,14 +34,14 @@ class NotesAdapter (private var notes : List<Note>, context: Context) : Recycler
         holder.titleTextView.text = note.title
         holder.contentTextView.text = note.content
 
-        /*holder.updateButton.setOnClickListener {
+        holder.updateButton.setOnClickListener {
             val intent = Intent(holder.itemView.context, UpdateNoteActivity::class.java).apply {
                 putExtra("note_id", note.id)
             }
             holder.itemView.context.startActivity(intent)
         }
 
-        holder.itemView.setOnClickListener {
+        /*holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, ViewNoteActivity::class.java).apply {
                 putExtra("note_id", note.id)
             }
