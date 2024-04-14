@@ -41,12 +41,12 @@ class NotesAdapter (private var notes : List<Note>, context: Context) : Recycler
             holder.itemView.context.startActivity(intent)
         }
 
-        /*holder.itemView.setOnClickListener {
+        holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, ViewNoteActivity::class.java).apply {
                 putExtra("note_id", note.id)
             }
             holder.itemView.context.startActivity(intent)
-        }*/
+        }
     }
 
     /*val swipeToDeleteCallback: ItemTouchHelper.Callback = object : SwipeToDeleteCallback(){
