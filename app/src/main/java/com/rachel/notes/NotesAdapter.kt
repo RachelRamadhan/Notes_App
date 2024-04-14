@@ -49,7 +49,7 @@ class NotesAdapter (private var notes : List<Note>, context: Context) : Recycler
         }
     }
 
-    /*val swipeToDeleteCallback: ItemTouchHelper.Callback = object : SwipeToDeleteCallback(){
+    val swipeToDeleteCallback: ItemTouchHelper.Callback = object : SwipeToDeleteCallback(){
         override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
             val position = viewHolder.adapterPosition
             val note = notes[position]
@@ -72,7 +72,7 @@ class NotesAdapter (private var notes : List<Note>, context: Context) : Recycler
             val alert = builder.create()
             alert.show()
         }
-    }*/
+    }
 
     fun refreshData(newNotes: List<Note>){
         notes = newNotes
