@@ -49,7 +49,7 @@
         android:id="@+id/updateContentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter the title"
+        android:hint="Enter the content"
         android:textColorHint="@color/white"
         android:textColor="@color/gray"
         android:gravity="top"

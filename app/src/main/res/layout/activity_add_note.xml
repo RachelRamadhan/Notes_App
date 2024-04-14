@@ -50,7 +50,7 @@
         android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter the title"
+        android:hint="Enter the content"
         android:textColorHint="@color/gray"
         android:gravity="top"
         android:padding="12dp"
